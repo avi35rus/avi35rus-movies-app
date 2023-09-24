@@ -1,0 +1,29 @@
+@media (max-width: 991px) {
+	.app {
+		padding: 0 16px
+	}
+
+	.movie-card {
+		display: flex;
+		height: 245px;
+		overflow: hidden;
+		padding: 10px;
+	}
+
+	.movie-card >:last-child {
+		padding: 0 0 8px 12px;
+	}
+
+	.movie-card__truncate-description {
+		margin-left: -68px;
+	}
+
+	.movie-card__banner {
+		height: 38%;
+		object-fit: cover;
+	}
+
+	.movie-card__rating-star {
+		font-size: 16px;
+	}
+}

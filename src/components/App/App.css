@@ -1,0 +1,26 @@
+.app {
+	max-width: 1074px;
+	margin: 0 auto;
+	padding: 0 32px;
+}
+
+.app .app__spinner {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.app .ant-tabs-tabpane {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.app .ant-tabs-tabpane > * {
+	margin-bottom: 30px;
+}
+
+.app .ant-tabs-nav-wrap {
+	justify-content: center;
+}
